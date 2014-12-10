@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Finished/Scripts/GameContext/Views/PlayerView.cs">
+    <Files>
+      <File FileName="Assets/Finished/Scripts/GameContext/Views/PlayerView.cs" Line="23" Column="106" />
+      <File FileName="Assets/Finished/Scripts/GameContext/Views/PlayerMediator.cs" Line="27" Column="28" />
+      <File FileName="Assets/Finished/Scripts/UIContext/Views/UIMediator.cs" Line="26" Column="32" />
+      <File FileName="Assets/Finished/Scripts/UIContext/Views/UIView.cs" Line="22" Column="22" />
+      <File FileName="Assets/Finished/Scripts/ApplicationContext/Controllers/ApplicationSignals.cs" Line="6" Column="24" />
+      <File FileName="Assets/Finished/Scripts/GameContext/Controllers/PlayerFiredCommand.cs" Line="12" Column="52" />
+      <File FileName="Assets/Finished/Scripts/ApplicationContext/Controllers/ApplicationStartCommand.cs" Line="17" Column="2" />
+      <File FileName="Assets/Finished/Scripts/ApplicationContext/ApplicationContext.cs" Line="44" Column="86" />
+      <File FileName="Assets/Finished/Scripts/GameContext/Controllers/GameSignals.cs" Line="6" Column="42" />
+      <File FileName="Assets/Finished/Scripts/GameContext/GameContext.cs" Line="39" Column="68" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

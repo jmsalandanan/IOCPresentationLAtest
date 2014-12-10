@@ -17,6 +17,7 @@ public class PlayerMediator : Mediator {
 		base.OnRegister();
 		Debug.Log("On Register");
 		fireObjectSignal.AddListener(FireObject);
+		playerView.playerAwake.AddOnce(test);
 	}
 	
 	public override void OnRemove (){
@@ -26,5 +27,9 @@ public class PlayerMediator : Mediator {
 	private void FireObject(){
 		Debug.Log("Fire Object");
 		playerView.Fire();
+	}
+
+	private void test(){
+		Debug.Log("Once");
 	}
 }

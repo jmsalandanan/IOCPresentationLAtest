@@ -12,7 +12,9 @@ public class GameStartCommand : Command {
 		Debug.Log("Game has started,Instantiating Player");
 		GameObject player = GameObject.CreatePrimitive(PrimitiveType.Cube);     
 		player.name = "Player";          
-		player.AddComponent<PlayerView>();          
+		player.AddComponent<PlayerView>();
+		Rigidbody rb = player.AddComponent<Rigidbody>();
+		rb.constraints = RigidbodyConstraints.FreezePositionZ | RigidbodyConstraints.FreezeRotation;
 		player.transform.parent = contextView.transform;   
 	}
 }

@@ -3,3 +3,6 @@ Pipe name: \\.\pipe\UnityShaderCompiler-1--1596522072
 Cmd: getPlatforms
 Cmd: preprocess
   insize=293 outsize=293 ok=1
+End of pipe
+
+Quitting shader compiler process
